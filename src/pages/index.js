@@ -12,6 +12,7 @@ import UserHome from "./UserHome/UserHome";
 import Wallet from "./Wallet/Wallet";
 import Withdraw from "./Withdraw/Withdraw";
 import GameMarket from "./GameMarket/GameMarket";
+import Collection from "./Collection/Collection";
 export {
     AddressManagement,
     Home,
@@ -26,5 +27,6 @@ export {
     UserHome,
     Wallet,
     Withdraw,
-    GameMarket
+    GameMarket,
+    Collection,
 }

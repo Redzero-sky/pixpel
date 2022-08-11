@@ -15,7 +15,8 @@ import {
     UserHome,
     Wallet,
     Withdraw,
-    GameMarket
+    GameMarket,
+    Collection
 } from "./pages/index"
 
 function About() {
@@ -68,6 +69,7 @@ function App() {
             <Route path="/withdraw" element={<Withdraw />} />
             <Route path="/address-management" element={<AddressManagement />} />
             <Route path="/account" element={<UserHome />} />
+            <Route path="/collection" element={<Collection />} />
             <Route path="*" element={<Test />} />
         </Routes>
     </div>
