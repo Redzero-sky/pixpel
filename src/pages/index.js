@@ -13,6 +13,7 @@ import Wallet from "./Wallet/Wallet";
 import Withdraw from "./Withdraw/Withdraw";
 import GameMarket from "./GameMarket/GameMarket";
 import Collection from "./Collection/Collection";
+import CreateNFT from "./CreateNFT/CreateNFT";
 export {
     AddressManagement,
     Home,
@@ -29,4 +30,5 @@ export {
     Withdraw,
     GameMarket,
     Collection,
+    CreateNFT
 }

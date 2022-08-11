@@ -16,7 +16,8 @@ import {
     Wallet,
     Withdraw,
     GameMarket,
-    Collection
+    Collection,
+    CreateNFT
 } from "./pages/index"
 
 function About() {
@@ -70,6 +71,7 @@ function App() {
             <Route path="/address-management" element={<AddressManagement />} />
             <Route path="/account" element={<UserHome />} />
             <Route path="/collection" element={<Collection />} />
+            <Route path="/create-nft" element={<CreateNFT />} />
             <Route path="*" element={<Test />} />
         </Routes>
     </div>

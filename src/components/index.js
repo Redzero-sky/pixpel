@@ -10,4 +10,6 @@ import MarketChart from "./MarketChart/MarketChart"
 import Table from "./Table/Table"
 import TradeViewChart from "./TradeChart/TradeView"
 import CardModal from "./CardModal/CardModal";
-export {Header, Banner, Button, Menu, Filter, NFTCard, GameCard, MarketChart, TradeViewChart, Cart, CardModal }
+import AddModal from "./AddModal/AddModal";
+import SkillModal from "./SkillModal/SkillModal";
+export {Header, Banner, Button, Menu, Filter, NFTCard, GameCard, MarketChart, TradeViewChart, Cart, CardModal, AddModal, SkillModal }

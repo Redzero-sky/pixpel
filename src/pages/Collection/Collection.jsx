@@ -1,7 +1,7 @@
 import React from "react";
 import Select from 'react-select';
 import "./Collection.scss";
-
+import { Header } from "../../components";
 const options = [
   { value: 'chocolate', label: 'Chocolate' },
   { value: 'strawberry', label: 'Strawberry' },
@@ -34,6 +34,7 @@ const customStyles = {
 const Collection = () => {
   return (
     <div className="collection">
+      <Header></Header>
       <div className="container">
         <h2 className="collection__title">
           Create a Collection
@@ -88,16 +89,16 @@ const Collection = () => {
         <div className="flex gap-4 mt-2">
           <div className="flex column col-6">
             <span className="mb-1">Name:</span>
-            <input type="text" className="collection__input" />
+            <input type="text" className="collection__input" placeholder="Writer your name..."/>
           </div>
           <div className="flex column col-6">
             <span className="mb-1">URL:</span>
-            <input type="text" className="collection__input" />
+            <input type="text" className="collection__input" placeholder="http://pixel.com/collection"/>
           </div>
         </div>
         <div className="flex column mt-2">
           <span className="mb-1">Description:</span>
-          <textarea className="collection__area" />
+          <textarea className="collection__area" placeholder="Write your name..."/>
         </div>
         <div className="flex gap-4 mt-2">
           <div className="flex column col-3">
