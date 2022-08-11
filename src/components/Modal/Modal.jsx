@@ -4,7 +4,7 @@ import "./Modal.scss"
 
 const Modal = (props) => {
 	return (
-		<div className="modal">
+		<div className="cmodal">
 			<div className="modal-container">
 				<div className="modal-head">
 					{props.header}
