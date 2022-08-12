@@ -17,7 +17,8 @@ import {
     Withdraw,
     GameMarket,
     Collection,
-    CreateNFT
+    CreateNFT,
+    Developer
 } from "./pages/index"
 
 function About() {
@@ -53,29 +54,30 @@ function Test() {
     );
 }
 function App() {
-  return (
-    <div className="App">
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/nft-market" element={<NFTMarket />} />
-            <Route path="/game-market" element={<GameMarket />} />
-            <Route path="/stacking" element={<Stacking />} />
-            <Route path="/exchange" element={<Exchange />} />
-            <Route path="/help-center" element={<HelpCenter />} />
-            <Route path="/inventory" element={<Inventory />} />
-            <Route path="/notification" element={<Notification />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/swap-master" element={<SwapMaster />} />
-            <Route path="/wallet" element={<Wallet />} />
-            <Route path="/withdraw" element={<Withdraw />} />
-            <Route path="/address-management" element={<AddressManagement />} />
-            <Route path="/account" element={<UserHome />} />
-            <Route path="/collection" element={<Collection />} />
-            <Route path="/create-nft" element={<CreateNFT />} />
-            <Route path="*" element={<Test />} />
-        </Routes>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/nft-market" element={<NFTMarket />} />
+                <Route path="/game-market" element={<GameMarket />} />
+                <Route path="/stacking" element={<Stacking />} />
+                <Route path="/exchange" element={<Exchange />} />
+                <Route path="/help-center" element={<HelpCenter />} />
+                <Route path="/inventory" element={<Inventory />} />
+                <Route path="/notification" element={<Notification />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/swap-master" element={<SwapMaster />} />
+                <Route path="/wallet" element={<Wallet />} />
+                <Route path="/withdraw" element={<Withdraw />} />
+                <Route path="/address-management" element={<AddressManagement />} />
+                <Route path="/account" element={<UserHome />} />
+                <Route path="/collection" element={<Collection />} />
+                <Route path="/create-nft" element={<CreateNFT />} />
+                <Route path="/developer" element={<Developer />} />
+                <Route path="*" element={<Test />} />
+            </Routes>
+        </div>
+    );
 }
 
 export default App;

@@ -14,6 +14,8 @@ import Withdraw from "./Withdraw/Withdraw";
 import GameMarket from "./GameMarket/GameMarket";
 import Collection from "./Collection/Collection";
 import CreateNFT from "./CreateNFT/CreateNFT";
+import Developer from "./Developer/Developer";
+
 export {
     AddressManagement,
     Home,
@@ -30,5 +32,6 @@ export {
     Withdraw,
     GameMarket,
     Collection,
-    CreateNFT
+    CreateNFT,
+    Developer
 }

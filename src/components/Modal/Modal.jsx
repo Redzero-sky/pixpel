@@ -5,8 +5,8 @@ import "./Modal.scss"
 const Modal = (props) => {
 	return (
 		<div className="cmodal">
-			<div className="modal-container">
-				<div className="modal-head">
+			<div className="cmodal-container">
+				<div className="cmodal-head">
 					{props.header}
 					<button className="btn btn--secondary close" onClick={props.handleClose}>&times;</button>
 				</div>
